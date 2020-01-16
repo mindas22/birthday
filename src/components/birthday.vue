@@ -13,10 +13,11 @@
         Laimute - {{ daysUntilBirthday("1958-07-18") }} days <br />
         Ilajus - {{ daysUntilBirthday("2014-12-17") }} days <br />
       </div>
+      <bcalc bdate="2010-04-04" name="Maja" />
+      <bcalc bdate="1979-04-21" name="Mindaugas" />
       <bcalc bdate="2008-04-22" name="Arminas" />
       <bcalc bdate="1944-04-26" name="Algis" />
       <bcalc bdate="2014-12-17" name="Ilajus" />
-      <bcalc bdate="2000-01-01" name="JOE" />
     </div>
   </div>
 </template>
