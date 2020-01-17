@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{name}} - {{daysUntilBirthday(bdate)}} days until birthday, age: {{years}} years, total lived {{liveddays}} days. {{bdate}} </p>
+    <p class="list">{{name}} - {{daysUntilBirthday(bdate)}} days until birthday, age: {{years}} years, total lived {{liveddays}} days. {{bdate}} </p>
   </div>
 </template>
 

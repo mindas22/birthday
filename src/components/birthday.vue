@@ -7,7 +7,7 @@
         <br />
         Mindaugas - {{ daysUntilBirthday("1979-04-21") }} days <br />
         Arminas - {{ daysUntilBirthday("1979-04-22") }} days <br />
-        Algis - {{ daysUntilBirthday("1944-04-26") }} days <br />
+        <!-- Algis - {{ daysUntilBirthday("1944-04-26") }} days <br /> -->
         Zita - {{ daysUntilBirthday("1982-05-09") }} days <br />
         Uma - {{ daysUntilBirthday("2012-07-09") }} days <br />
         Laimute - {{ daysUntilBirthday("1958-07-18") }} days <br />
@@ -16,7 +16,7 @@
       <bcalc bdate="2010-04-04" name="Maja" />
       <bcalc bdate="1979-04-21" name="Mindaugas" />
       <bcalc bdate="2008-04-22" name="Arminas" />
-      <bcalc bdate="1944-04-26" name="Algis" />
+      <!-- <bcalc bdate="1944-04-26" name="Algis" /> -->
       <bcalc bdate="2014-12-17" name="Ilajus" />
     </div>
   </div>
