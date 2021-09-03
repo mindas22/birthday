@@ -3,7 +3,7 @@
     <div class="container">
       <h1>Days until birthday</h1>
       <div class="list">
-        Halloween - {{ daysUntilBirthday("2021-10-31") }} days Kotryna -
+        Kotryna -
         {{ daysUntilBirthday("1999-04-15") }} days
         <br />
         Mindaugas - {{ daysUntilBirthday("1979-04-21") }} days <br />
@@ -12,12 +12,14 @@
         Zita - {{ daysUntilBirthday("1982-05-09") }} days <br />
         Uma - {{ daysUntilBirthday("2012-07-09") }} days <br />
         Laimute - {{ daysUntilBirthday("1958-07-18") }} days <br />
+        Halloween - {{ daysUntilBirthday("2020-10-31") }} days <br />
         Ilajus - {{ daysUntilBirthday("2014-12-17") }} days <br />
       </div>
       <bcalc bdate="2010-04-04" name="Maja" />
       <bcalc bdate="1979-04-21" name="Mindaugas" />
       <bcalc bdate="2008-04-22" name="Arminas" />
       <!-- <bcalc bdate="1944-04-26" name="Algis" /> -->
+
       <bcalc bdate="2014-12-17" name="Ilajus" />
     </div>
   </div>
