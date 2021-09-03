@@ -3,7 +3,8 @@
     <div class="container">
       <h1>Days until birthday</h1>
       <div class="list">
-        Kotryna - {{ daysUntilBirthday("1999-04-15") }} days
+        Halloween - {{ daysUntilBirthday("2021-10-31") }} days Kotryna -
+        {{ daysUntilBirthday("1999-04-15") }} days
         <br />
         Mindaugas - {{ daysUntilBirthday("1979-04-21") }} days <br />
         Arminas - {{ daysUntilBirthday("1979-04-22") }} days <br />
@@ -29,11 +30,11 @@ import bcalc from "@/components/bcalc.vue";
 export default {
   data() {
     return {
-      today: moment().format("YYYY-MM-DD")
+      today: moment().format("YYYY-MM-DD"),
     };
   },
   components: {
-    bcalc
+    bcalc,
   },
   methods: {
     //Calculate current age of person in years (moment truncates by default)
@@ -50,8 +51,8 @@ export default {
         birthday.substring(5) === this.today.substring(5) ? 0 : 1;
       var nextBirthday = moment(birthday).add(years + adjustToday, "years");
       return nextBirthday.diff(this.today, "days");
-    }
-  }
+    },
+  },
 };
 </script>
 
