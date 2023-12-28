@@ -6,21 +6,21 @@
         Kotryna -
         {{ daysUntilBirthday("1999-04-15") }} days
         <br />
-        Mindaugas - {{ daysUntilBirthday("1979-04-21") }} days <br />
-        Arminas - {{ daysUntilBirthday("1979-04-22") }} days <br />
+        Min - {{ daysUntilBirthday("1979-04-21") }} days <br />
+        Arm - {{ daysUntilBirthday("1979-04-22") }} days <br />
         <!-- Algis - {{ daysUntilBirthday("1944-04-26") }} days <br /> -->
-        Zita - {{ daysUntilBirthday("1982-05-09") }} days <br />
-        Uma - {{ daysUntilBirthday("2012-07-09") }} days <br />
+        Z - {{ daysUntilBirthday("1982-05-09") }} days <br />
+        U - {{ daysUntilBirthday("2012-07-09") }} days <br />
         Laimute - {{ daysUntilBirthday("1958-07-18") }} days <br />
         Halloween - {{ daysUntilBirthday("2020-10-31") }} days <br />
-        Ilajus - {{ daysUntilBirthday("2014-12-17") }} days <br />
+        I - {{ daysUntilBirthday("2014-12-17") }} days <br />
       </div>
       <bcalc bdate="2010-04-04" name="Maja" />
-      <bcalc bdate="1979-04-21" name="Mindaugas" />
-      <bcalc bdate="2008-04-22" name="Arminas" />
+      <bcalc bdate="1979-04-21" name="Min" />
+      <bcalc bdate="2008-04-22" name="A" />
       <!-- <bcalc bdate="1944-04-26" name="Algis" /> -->
-
-      <bcalc bdate="2014-12-17" name="Ilajus" />
+      <bcalc bdate="2012-07-09" name="U" />
+      <bcalc bdate="2014-12-17" name="I" />
     </div>
   </div>
 </template>
